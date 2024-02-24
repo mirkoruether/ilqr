@@ -22,7 +22,7 @@ INSTALL_REQUIRES = [
     "numpy>=1.16.3",
     "scipy>=1.2.1",
     "six>=1.12.0",
-    "pytensor>=2.18.6",
+    "pytensor>=2.18.0",
 ]
 
 # Parse version information.
