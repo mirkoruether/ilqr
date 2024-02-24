@@ -14,8 +14,8 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>
 """Autodifferentiation helper methods."""
 
-import theano
-import theano.tensor as T
+import pytensor as theano
+import pytensor.tensor as T
 
 
 def jacobian_scalar(expr, wrt):

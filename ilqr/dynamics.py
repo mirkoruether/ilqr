@@ -16,9 +16,9 @@
 
 import six
 import abc
-import theano
+import pytensor as theano
 import numpy as np
-import theano.tensor as T
+import pytensor.tensor as T
 from scipy.optimize import approx_fprime
 from .autodiff import (as_function, batch_jacobian, hessian_vector,
                        jacobian_vector)

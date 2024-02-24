@@ -17,7 +17,7 @@
 import six
 import abc
 import numpy as np
-import theano.tensor as T
+import pytensor.tensor as T
 from scipy.optimize import approx_fprime
 from .autodiff import as_function, hessian_scalar, jacobian_scalar
 

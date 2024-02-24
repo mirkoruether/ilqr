@@ -15,7 +15,7 @@
 """Cartpole example."""
 
 import numpy as np
-import theano.tensor as T
+import pytensor.tensor as T
 from ..dynamics import BatchAutoDiffDynamics, tensor_constrain
 
 
